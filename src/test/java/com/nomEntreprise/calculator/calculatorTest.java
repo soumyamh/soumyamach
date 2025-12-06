@@ -1,11 +1,25 @@
 package com.nomEntreprise.calculator;
 
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class calculatorTest {
+    private calculatorTest calc;
+
+    @BeforeEach
+    void setUp() {
+        calc = new calculatorTest();
+        System.out.println("Initialisation...");
+    }
+    @AfterEach
+    void tearDown() {
+        System.out.println("Nettoyage après le test...");
+
+    }
+
 
     @Test
     public void testAdd() {
