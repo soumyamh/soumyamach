@@ -9,7 +9,7 @@ public class persone {
         public String tourner(int fois) {
             indexOrientation = (indexOrientation + fois) % 4;
             return orientations[indexOrientation];
-        }
-    }
 
 
+}
+}
