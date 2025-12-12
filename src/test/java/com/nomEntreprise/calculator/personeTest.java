@@ -11,6 +11,13 @@ class personeTest {
         p = new persone();
         assertEquals("EST", p.tourner(1));
     }
+    @Test
+    public void testTournerDeuxFois() {
+        persone p = new persone();
+        assertEquals("SUD", p.tourner(2));
+    }
+
+
 
 
 }
