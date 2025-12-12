@@ -26,6 +26,12 @@ class personeTest {
         persone p = new persone();
         assertEquals("NORD", p.tourner(4));
     }
+    @Test
+    public void testTournerCinqFois() {
+        persone p = new persone();
+        assertEquals("EST", p.tourner(5))
+    }
+
 
 
 
