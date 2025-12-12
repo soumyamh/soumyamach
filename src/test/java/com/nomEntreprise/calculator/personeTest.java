@@ -16,6 +16,15 @@ class personeTest {
         persone p = new persone();
         assertEquals("SUD", p.tourner(2));
     }
+    @Test
+    public void testTournerTroisFois() {
+        persone p = new persone();
+        assertEquals("OUEST", p.tourner(3));
+    }
+
+
+
+
 
 
 
