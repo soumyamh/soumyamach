@@ -29,7 +29,7 @@ class personeTest {
     @Test
     public void testTournerCinqFois() {
         persone p = new persone();
-        assertEquals("EST", p.tourner(5))
+        assertEquals("EST", p.tourner(5));
     }
 
 
