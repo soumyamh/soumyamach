@@ -6,6 +6,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FizzBuzzTest {
     @Test
+    void testFizzBuzz() {
+        assertEquals("FizzBuzz", FizzBuzz.de(15));
+}
+    @Test
     void testBuzz() {
         assertEquals("Buzz", FizzBuzz.de(5));
     }
